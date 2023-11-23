@@ -1,0 +1,96 @@
+body
+{
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+
+.mainDiv
+{
+	position: fixed;
+	top: 2%;
+	left: 15%;
+	height: 92%;
+	width: 70%;
+	border: 15px solid yellow;
+	border-radius: 5%;
+	color: yellow;
+	font-size: 150%;
+	text-align: center;
+}
+
+.borderDiv
+{
+	margin: 0% auto;
+	height: 28%;
+	width: 90%;
+	border: 5px solid blue;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cardBoard
+{
+	background-image: url("https://i.postimg.cc/2yXvLPM5/image.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	height: 90%;
+	width: 20%;
+	border: 5px solid lightgray;
+	border-radius: 15px;
+}
+
+.mainCardsDiv
+{
+	margin: 0% auto;
+	height: 28%;
+	width: 90%;
+	border: 5px solid yellow;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.mainCards
+{
+	background-image: url("https://i.postimg.cc/2yXvLPM5/image.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	height: 90%;
+	width: 20%;
+	border: 5px solid lightgray;
+	border-radius: 15px;
+}
+
+.mainButton
+{
+	margin: 0% auto;
+	margin-top: 1%;
+	height: 7%;
+	width: 50%;
+	background-color: red;
+	border: 10px solid lightgray;
+	border-radius: 15px;
+	color: lightgray;
+	display: flex;
+	text-content: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 200%;
+	font-weight: 900;
+	text-shadow: 2px 2px 0px black;
+	cursor: pointer;
+}
+
+
+
+
